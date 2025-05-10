@@ -1,0 +1,234 @@
+:root{
+    --colorPrimario:#42526a;
+    --colorSecundario:#0096fa;
+    --fuentePrimaria:"Roboto", sans-serif;
+    --fuenteSecundaria:"Open Sans", serif;
+    --colorBlanco:#fff;
+    --colorOscuro:#000;
+    --colorGris:#ccc;
+    --colorDark:#363b44;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header{
+    width: 100%;
+    height: 650px;
+    background-color: var(--colorOscuro);
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation-box{
+    background-color: var(--colorDark);
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navigation-logo{
+    width: 300px;
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-links{
+}
+.navigation-link {
+    margin-top: 5px;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.navigation-link a{
+    color: white;
+    font-family: var(--fuentePrimaria);
+    font-size: 20px;
+}
+.navigation-link:last-child{
+    margin-right: 0;
+}
+
+/*main*/
+.sections-tech{
+    width: 70%;
+    float: left;
+}
+.article-tech{
+    margin-bottom: 30px;
+}
+
+.article-image{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.article-text{
+    font-size: 18px;
+     text-align: justify;
+     line-height: 1.6;
+     font-family: var(--fuentePrimaria);
+     margin-bottom: 10px;
+}
+
+.article-button{
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.article-button:hover{
+    background-color: var(--colorOscuro);
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--fuentePrimaria);
+    margin-bottom: 20px;
+    color: var(--colorSecundario);
+}
+
+.article-title{
+    margin-bottom: 10px;
+    font-family: var(--fuenteSecundaria);
+    color: var(--colorSecundario);
+}
+
+/*ASIDE*/
+.aside{
+    width: 27%;
+    float: right;
+}
+.aside-top{
+    border-bottom: 5px solid var(--colorGris);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.aside-title{
+    color: var(--colorSecundario);
+    font-family: var(--fuenteSecundaria);
+    margin-bottom: 10px;
+}
+
+.aside-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.aside-lists{
+    list-style-type: none;
+    list-style-image: url(../img/check.png);
+    list-style-position: inside;
+}
+.aside-list{
+    margin-bottom: 10px;
+}
+
+
+.aside-link{
+    color: var(--colorSecundario);
+    font-family: var(--fuenteSecundaria);
+}
+
+.aside-bottom{
+
+}
+
+.aside-subtitle{
+    color: var(--colorSecundario);
+    font-family: var(--fuenteSecundaria);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.aside-content{
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--colorGris);
+    padding-bottom: 15px;
+}
+
+.aside-number{
+    float: left;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.aside-text{
+    line-height: 1.6;
+    font-family: var(--fuenteSecundaria);
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*Articles bottom*/
+.articles{
+    background-color: var(--colorDark);
+    padding: 50px 0;
+}
+.articles-title{
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrimaria);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.articles-description{
+    color: var(--colorBlanco);
+    font-family: var(--fuenteSecundaria);
+    text-align: center;
+}
+
+.articles{
+
+}
+.articles-article{
+    width: 450px;
+    display: inline-block;
+}
+.articles-image{
+    width: 100%;
+}
+
+.articles-subtitle{
+    color: var(--colorBlanco);
+    font-family: var(--fuentePrimaria);
+    margin-bottom: 7px;
+}
+.articles-date{
+    color: var(--colorGris);
+    text-align: right;
+    font-style: italic;
+}
+/*Footer*/
+.navigation-bottom{
+    background-color: var(--colorPrimario);
+    padding: 55px 0;
+}
+
+.footer{
+    background-color: var(--colorDark);
+    color: var(--colorBlanco);
+    text-align: center;
+    padding: 15px 0;
+    font-family: var(--fuenteSecundaria);
+}
