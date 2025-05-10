@@ -183,7 +183,9 @@
 
 /*Articles bottom*/
 .articles{
-    background-color: var(--colorDark);
+    background:linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(../img/parallax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     padding: 50px 0;
 }
 .articles-title{
@@ -196,11 +198,9 @@
     color: var(--colorBlanco);
     font-family: var(--fuenteSecundaria);
     text-align: center;
+    margin-bottom: 35px;
 }
 
-.articles{
-
-}
 .articles-article{
     width: 450px;
     display: inline-block;
@@ -219,9 +219,15 @@
     text-align: right;
     font-style: italic;
 }
+
+.articles-container{
+    display: flex;
+    justify-content: space-around;
+
+}
 /*Footer*/
 .navigation-bottom{
-    background-color: var(--colorPrimario);
+    background-color: var(--colorOscuro);
     padding: 55px 0;
 }
 
